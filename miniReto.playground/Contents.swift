@@ -6,30 +6,31 @@ var serie = 0...100
 
 for n in serie {
     
+     if (n % 5) == 0 {
+        
+        print("\(n)\tBingo!!!")
+        
+    }
+    
+    if (n % 2) == 0 {
+        
+        print("\(n)\tPar!!!")
+        
+    }
+    
+    else{
+        
+        print("\(n)\tImpar!!!")
+        
+    }
+    
     if n > 30 && n < 40{
         
         
-        print("\(n)Viva Swift!!!")
+        print("\(n)\tViva Swift!!!")
         
     }
-    
-    else if (n % 5) == 0 {
-        
-        print("\(n)Bingo!!!")
-        
-    }
-    
-    else if (n % 2) == 0 {
-        
-        print("\(n)Par!!!")
-        
-    }
-    
-    else if (n % 2) != 0 {
-        
-        print("\(n)Impar!!!")
-        
-    }
+
     
         }
 
